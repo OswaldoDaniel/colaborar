@@ -117,6 +117,11 @@ public class JF_Main extends javax.swing.JFrame {
 
         jmi_Areas.setBackground(new java.awt.Color(255, 255, 255));
         jmi_Areas.setText("Areas");
+        jmi_Areas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmi_AreasActionPerformed(evt);
+            }
+        });
         jMenu1.add(jmi_Areas);
 
         jmi_Perimetros.setBackground(new java.awt.Color(255, 255, 255));
@@ -140,6 +145,10 @@ public class JF_Main extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jmi_AreasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmi_AreasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jmi_AreasActionPerformed
 
     /**
      * @param args the command line arguments
